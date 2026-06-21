@@ -24,21 +24,26 @@ Folders containing data used to obtain plots
 
 The repository is structured as:
 
-Centralized_Kalman/
--  Main simulation script
--  Filter implementation
--  Supporting functions
-
-CI/
--  Main simulation script
--  Filter implementation
--  Supporting functions
-
+Centralized Kalman filter/
+-  KF_Plotting (Single run creating all plots saved to plots)
+-  KF_Monte_Carlo (Monte Carlo simulation saving the error to /data)
+-  KF_Error_Processing (Extracts information from MC and saves to /data)
+-  plots folders/ (contains plots used)
+-  data folder/ (contains data used)
+Distributed Kalman Filter CI/
+-  CI_Plotting (Single run creating all plots saved to plots)
+-  CI_Monte_Carlo (Monte Carlo simulation saving the error to /data)
+-  CI_Error_Processing (Extracts information from MC and saves to /data)
+-  plots folders/ (contains plots used)
+-  data folder/ (contains data used)
+-  OverlappingCI (function script found at: https://github.com/decenter2021/OCI)
 SCI/
--  Main simulation scrip
--  Filter implementation
--  Supporting functions
-
+-  SCI_Plotting (Single run creating all plots saved to plots)
+-  SCI_Monte_Carlo (Monte Carlo simulation saving the error to /data)
+-  SCI_Error_Processing (Extracts information from MC and saves to /data)
+-  plots folders/ (contains plots used)
+-  data folder/ (contains data used)
+-  OverlappingCI (function script found at: https://github.com/decenter2021/OCI)
 
 Purpose
 
