@@ -30,6 +30,7 @@ Centralized Kalman filter/
 -  KF_Error_Processing (Extracts information from MC and saves to /data)
 -  plots folders/ (contains plots used)
 -  data folder/ (contains data used)
+
 Distributed Kalman Filter CI/
 -  CI_Plotting (Single run creating all plots saved to plots)
 -  CI_Monte_Carlo (Monte Carlo simulation saving the error to /data)
@@ -37,7 +38,8 @@ Distributed Kalman Filter CI/
 -  plots folders/ (contains plots used)
 -  data folder/ (contains data used)
 -  OverlappingCI (function script found at: https://github.com/decenter2021/OCI)
-SCI/
+
+Distributed Kalman Filter SCI/
 -  SCI_Plotting (Single run creating all plots saved to plots)
 -  SCI_Monte_Carlo (Monte Carlo simulation saving the error to /data)
 -  SCI_Error_Processing (Extracts information from MC and saves to /data)
